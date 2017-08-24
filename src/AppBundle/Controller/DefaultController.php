@@ -34,6 +34,7 @@ class DefaultController extends Controller
         echo "<br />";
         print_r($chapo[0]);
 
+
         // replace this example code with whatever you need
         return $this->render('base.html.twig', array(
             'base_dir' => realpath($this->container->getParameter('kernel.root_dir').'/..').DIRECTORY_SEPARATOR,
