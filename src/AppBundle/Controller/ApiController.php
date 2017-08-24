@@ -7,6 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Goutte\Client;
 use GuzzleHttp\Client as GuzzleClient;
+use Symfony\Component\HttpFoundation\JsonResponse;
 
 class ApiController extends Controller
 {
@@ -29,12 +30,10 @@ class ApiController extends Controller
             return $node->getNode(0)->attributes->getNamedItem('content')->textContent;
         });
 
-        echo "<pre>";
-
-        print_r($result[0]);
-        echo "<br />";
-        print_r($chapo[0]);
-
-        exit;
+        return new JsonResponse([
+            'url'   => $url,
+            'title' => $result[0],
+            'chapo' => $chapo[0],
+        ]);
     }
 }
