@@ -29,11 +29,15 @@ class ApiController extends Controller
         $chapo = $crawler->filter('meta[property="og:description"]')->each(function ($node) {
             return $node->getNode(0)->attributes->getNamedItem('content')->textContent;
         });
+        $image = $crawler->filter('meta[property="og:image"]')->each(function ($node) {
+            return $node->getNode(0)->attributes->getNamedItem('content')->textContent;
+        });
 
         return new JsonResponse([
             'url'   => $url,
             'title' => $result[0],
             'chapo' => $chapo[0],
+            'image' => $image[0],
         ]);
     }
 }
