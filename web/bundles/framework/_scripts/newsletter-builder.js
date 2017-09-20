@@ -205,7 +205,7 @@ $(".sim-row-edit.title-article").hover(
       $(this).parent().parent().parent().fadeOut(500)
       $(this).parent().parent().slideUp(500)
        
-        big_parent.text($("#sim-edit-title .title-article").val());
+        big_parent.text($("#sim-edit-title .title").val());
 
         });
 
@@ -273,7 +273,6 @@ $(".sim-row-edit.chapo-header").hover(
     $(this).children(".sim-row-edit-hover-chapo").remove();
   }
 );
-
 }
 hover_edit();
 
