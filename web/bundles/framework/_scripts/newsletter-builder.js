@@ -346,12 +346,10 @@ function perform_change(){
                 $("#"+id_select+" .sim-row-edit image-article").attr("src",image);
             }
         };
-        hover_edit();
         perform_delete();
         $("#newsletter-builder-area-center-frame-buttons-dropdown").fadeOut(200);
     });
 }
-perform_change();
 
 
 //Download
