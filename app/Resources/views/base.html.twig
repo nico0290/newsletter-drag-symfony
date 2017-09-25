@@ -13,32 +13,28 @@
         <script type="text/javascript" src="{{ asset('bundles/framework/_scripts/jquery-2.0.2.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('bundles/framework/_scripts/jquery-ui-1.10.4.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('bundles/framework/_scripts/newsletter-builder.js') }}"></script>
-
     </head>
 <body>
 
 
 
 <div id="header">
-<div id="header-left">
-
-<div id="header-left-text"><a href="http://simbyone.com/drag-and-drop-newsletter-builder-using-jquery/"> </a></div>
-</div>
-
-<div id="header-right">
-<div id="header-right-text"><a>Newsletter builder</a></div>
-</div>
+    <div id="header-left">
+        <div id="header-left-text"><a href="http://simbyone.com/drag-and-drop-newsletter-builder-using-jquery/"> </a></div>
+    </div>
+    <div id="header-right">
+        <div id="header-right-text"><a>Newsletter builder</a></div>
+    </div>
 </div>
 
 
 <div id="newsletter-preloaded-download">
-<form id="export-form" action="export.php" method="post" name="export-form">
-<textarea id="export-textarea" name="export-textarea"></textarea>
-</form>
+    <form id="export-form" action="export.php" method="post" name="export-form">
+        <textarea id="export-textarea" name="export-textarea"></textarea>
+    </form>
 </div>
 <div id="newsletter-preloaded-export"></div>
 <div id="newsletter-preloaded-rows">
-
         <div class="sim-row" data-id="1">
             <table width="100%" class="w650" border="0" cellspacing="0" cellpadding="0" align="center" style="text-align:center;" bgcolor="#f0f0f0">
                 <tr>
@@ -556,9 +552,12 @@
             </tr>
             <tr>
                 <td width="20" class="w20"></td>
-                <td width="610" class="w558">
-                    <a href="http://www.explorimmo.com/edito/avis-de-recherche/detail/avis-recherche/une-superbe-villa-en-corse-du-sud.html?utm_source=neolane&utm_medium=email&utm_term=10082017&utm_campaign=newsletters_edito_ei&?utm_source=explorimmo&utm_medium=email&utm_term=2" target="_blank"><img width="610" class="w600" src="http://newsletter.figaroclassifieds.fr/explorimmo/img/20170809/Propriete_Agence_Immobiliere_du_Golfe_1.jpg" alt="avis de recherche" border="0"></a>
-                </td>
+                <a href="http://www.explorimmo.com/edito/avis-de-recherche/detail/avis-recherche/une-superbe-villa-en-corse-du-sud.html?utm_source=neolane&utm_medium=email&utm_term=10082017&utm_campaign=newsletters_edito_ei&?utm_source=explorimmo&utm_medium=email&utm_term=2">
+                    <td width="610" class="sim-row-edit header-article" data-type="image">
+                            <img class="header-image" src="http://newsletter.figaroclassifieds.fr/explorimmo/img/20170809/shutterstock_599304416.jpg" width="610" border="0" style="display:block;">
+                    </td>
+                </a>
+
                 <td width="20" class="w20"></td>
             </tr>
             <tr>
@@ -572,7 +571,7 @@
                     <table class="w600" width="610" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
                         <tr>
                             <td width="610" class="sim-row-edit" align="left" style="mso-table-lspace:0;mso-table-rspace:0;font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#000000;text-decoration:none" data-type="title">
-                                <a href="http://www.explorimmo.com/edito/avis-de-recherche/detail/avis-recherche/une-superbe-villa-en-corse-du-sud.html?utm_source=neolane&utm_medium=email&utm_term=10082017&utm_campaign=newsletters_edito_ei&?utm_source=explorimmo&utm_medium=email&utm_term=2" style="font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#000000;text-decoration:none" target="_blank">Une superbe villa en Corse du Sud</a>
+                                <a class="sim-row-edit title-header" href="http://www.explorimmo.com/edito/avis-de-recherche/detail/avis-recherche/une-superbe-villa-en-corse-du-sud.html?utm_source=neolane&utm_medium=email&utm_term=10082017&utm_campaign=newsletters_edito_ei&?utm_source=explorimmo&utm_medium=email&utm_term=2" style="font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#000000;text-decoration:none" data-type="title" target="_blank">Une superbe villa en Corse du Sud</a>
                             </td>
                         </tr>
                         <tr>
@@ -580,7 +579,7 @@
                         </tr>
                         <tr>
                             <td width="610" class="sim-row-edit" align="left" data-type="text" style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333 ;text-decoration:none" >
-                                <a href="http://www.explorimmo.com/edito/avis-de-recherche/detail/avis-recherche/une-superbe-villa-en-corse-du-sud.html?utm_source=neolane&utm_medium=email&utm_term=10082017&utm_campaign=newsletters_edito_ei&?utm_source=explorimmo&utm_medium=email&utm_term=2" style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333 ;text-decoration:none" target="_blank">Chaque semaine, quatre professionnels de l&rsquo;immobilier nous pr&eacute;sentent un bien aux caract&eacute;ristiques exceptionnelles ou atypiques. Aujourd&rsquo;hui, notre s&eacute;lection concerne une superbe villa en Corse du Sud.</a>
+                                <a class="sim-row-edit chapo-header" href="http://www.explorimmo.com/edito/avis-de-recherche/detail/avis-recherche/une-superbe-villa-en-corse-du-sud.html?utm_source=neolane&utm_medium=email&utm_term=10082017&utm_campaign=newsletters_edito_ei&?utm_source=explorimmo&utm_medium=email&utm_term=2" style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333 ;text-decoration:none" data-type="chapo" target="_blank">Chaque semaine, quatre professionnels de l&rsquo;immobilier nous pr&eacute;sentent un bien aux caract&eacute;ristiques exceptionnelles ou atypiques. Aujourd&rsquo;hui, notre s&eacute;lection concerne une superbe villa en Corse du Sud.</a>
                             </td>
                         </tr>
                         <tr>
@@ -882,39 +881,40 @@
 </div>
 
 <div class="sim-edit" id="sim-edit-export">
-<div class="sim-edit-box" style="height:390px;">
-<div class="sim-edit-box-title">Export Template</div>
-
-<div class="sim-edit-box-content">
-<div class="sim-edit-box-content-text">Select and copy the entire text below</div>
-<div class="sim-edit-box-content-field"><textarea class="sim-edit-box-content-field-textarea text"></textarea></div>
-</div>
-<div class="sim-edit-box-buttons">
-<div class="sim-edit-box-buttons-cancel" style="margin-left:0px;">Cancel</div>
-</div>
-</div>
+    <div class="sim-edit-box" style="height:390px;">
+        <div class="sim-edit-box-title">Export Template</div>
+        <div class="sim-edit-box-content">
+            <div class="sim-edit-box-content-text">Select and copy the entire text below</div>
+            <div class="sim-edit-box-content-field">
+                <textarea class="sim-edit-box-content-field-textarea text"></textarea>
+            </div>
+        </div>
+        <div class="sim-edit-box-buttons">
+            <div class="sim-edit-box-buttons-cancel" style="margin-left:0px;">Cancel</div>
+        </div>
+    </div>
 </div>
 
 <div class="sim-edit" id="sim-edit-image">
     <div class="sim-edit-box" style="height:300px;">
         <div class="sim-edit-box-title">Edit Image</div>
-            <div class="sim-edit-box-content">
-                <div class="sim-edit-box-content-text">
-                    URL:
-                    <span>(full address including http://)</span>
-                </div>
-                <div class="sim-edit-box-content-field">
-                    <input type="text" class="sim-edit-box-content-field-input image"/>
-                </div>
-                <div class="sim-edit-box-content-text">
-                    Link:
-                    <span>(full address including http://)</span>
-                </div>
-                <div class="sim-edit-box-content-field">
-                    <input type="text" class="sim-edit-box-content-field-input image"/>
-                </div>
+        <div class="sim-edit-box-content">
+            <div class="sim-edit-box-content-text">
+                URL:
+                <span>(full address including http://)</span>
             </div>
-            <div class="sim-edit-box-buttons">
+            <div class="sim-edit-box-content-field">
+                <input type="text" class="sim-edit-box-content-field-input image"/>
+            </div>
+            <div class="sim-edit-box-content-text">
+                Link:
+                <span>(full address including http://)</span>
+            </div>
+            <div class="sim-edit-box-content-field">
+                <input type="text" class="sim-edit-box-content-field-input image"/>
+            </div>
+        </div>
+        <div class="sim-edit-box-buttons">
             <div class="sim-edit-box-buttons-save">Save</div>
             <div class="sim-edit-box-buttons-cancel">Cancel</div>
         </div>
@@ -922,118 +922,133 @@
 </div>
 
 <div class="sim-edit" id="sim-edit-link">
-<div class="sim-edit-box" style="height:310px;">
-<div class="sim-edit-box-title">Edit Link</div>
-
-<div class="sim-edit-box-content">
-<div class="sim-edit-box-content-text">Title</div>
-<div class="sim-edit-box-content-field"><input type="text" class="sim-edit-box-content-field-input title"/></div>
-<div class="sim-edit-box-content-text">URL:<span>(full address including http://)</span></div>
-<div class="sim-edit-box-content-field"><input type="text" class="sim-edit-box-content-field-input url"/></div>
-</div>
-<div class="sim-edit-box-buttons">
-<div class="sim-edit-box-buttons-save">Save</div>
-<div class="sim-edit-box-buttons-cancel">Cancel</div>
-</div>
-</div>
+    <div class="sim-edit-box" style="height:310px;">
+        <div class="sim-edit-box-title">Edit Link</div>
+        <div class="sim-edit-box-content">
+            <div class="sim-edit-box-content-text">Title</div>
+            <div class="sim-edit-box-content-field">
+                <input type="text" class="sim-edit-box-content-field-input title"/>
+            </div>
+            <div class="sim-edit-box-content-text">URL:<span>(full address including http://)</span></div>
+            <div class="sim-edit-box-content-field"><input type="text" class="sim-edit-box-content-field-input url"/></div>
+        </div>
+        <div class="sim-edit-box-buttons">
+            <div class="sim-edit-box-buttons-save">Save</div>
+            <div class="sim-edit-box-buttons-cancel">Cancel</div>
+        </div>
+    </div>
 </div>
 
 <div class="sim-edit" id="sim-edit-title">
-<div class="sim-edit-box" style="height:230px;">
-<div class="sim-edit-box-title">Edit Title</div>
-
-<div class="sim-edit-box-content">
-<div class="sim-edit-box-content-text">Title</div>
-<div class="sim-edit-box-content-field"><input type="text" class="sim-edit-box-content-field-input title"/></div>
-</div>
-<div class="sim-edit-box-buttons">
-<div class="sim-edit-box-buttons-save">Save</div>
-<div class="sim-edit-box-buttons-cancel">Cancel</div>
-</div>
-</div>
+    <div class="sim-edit-box" style="height:230px;">
+        <div class="sim-edit-box-title">Edit Title</div>
+        <div class="sim-edit-box-content">
+            <div class="sim-edit-box-content-text">Title</div>
+            <div class="sim-edit-box-content-field">
+                <input type="text" class="sim-edit-box-content-field-input title"/>
+            </div>
+        </div>
+        <div class="sim-edit-box-buttons">
+            <div class="sim-edit-box-buttons-save">Save</div>
+            <div class="sim-edit-box-buttons-cancel">Cancel</div>
+        </div>
+    </div>
 </div>
 
 
 <div class="sim-edit" id="sim-edit-text">
-<div class="sim-edit-box" style="height:390px;">
-<div class="sim-edit-box-title">Edit Text</div>
-
-<div class="sim-edit-box-content">
-<div class="sim-edit-box-content-text">Text</div>
-<div class="sim-edit-box-content-field"><textarea class="sim-edit-box-content-field-textarea text"></textarea></div>
-</div>
-<div class="sim-edit-box-buttons">
-<div class="sim-edit-box-buttons-save">Save</div>
-<div class="sim-edit-box-buttons-cancel">Cancel</div>
-</div>
-</div>
+    <div class="sim-edit-box" style="height:390px;">
+        <div class="sim-edit-box-title">Edit Text</div>
+        <div class="sim-edit-box-content">
+            <div class="sim-edit-box-content-text">Text</div>
+            <div class="sim-edit-box-content-field">
+                <textarea class="sim-edit-box-content-field-textarea text"></textarea>
+            </div>
+        </div>
+        <div class="sim-edit-box-buttons">
+            <div class="sim-edit-box-buttons-save">Save</div>
+            <div class="sim-edit-box-buttons-cancel">Cancel</div>
+        </div>
+    </div>
 </div>
 
 
 <div class="sim-edit" id="sim-edit-icon">
-<div class="sim-edit-box" style="height:580px;">
-<div class="sim-edit-box-title">Edit Icon</div>
-
-<div class="sim-edit-box-content">
-<div class="sim-edit-box-content-text">Select Icon</div>
-<div class="sim-edit-box-content-icons">
-
-
-
-
-</div>
-</div>
-<div class="sim-edit-box-buttons">
-<div class="sim-edit-box-buttons-cancel" style="margin-left:0px;">Cancel</div>
-</div>
-</div>
+    <div class="sim-edit-box" style="height:580px;">
+        <div class="sim-edit-box-title">Edit Icon</div>
+        <div class="sim-edit-box-content">
+            <div class="sim-edit-box-content-text">Select Icon</div>
+            <div class="sim-edit-box-content-icons"></div>
+        </div>
+        <div class="sim-edit-box-buttons">
+            <div class="sim-edit-box-buttons-cancel" style="margin-left:0px;">Cancel</div>
+        </div>
+    </div>
 </div>
 
 
 <div id="newsletter-builder" class="resize-height">
 
-  <div id="newsletter-builder-sidebar">
-    <div id="newsletter-builder-sidebar-buttons">
-      <div id="newsletter-builder-sidebar-buttons-abutton">Download Template</div>
-      <div id="newsletter-builder-sidebar-buttons-bbutton">Export</div>
+    <div id="newsletter-builder-sidebar">
+        <div id="newsletter-builder-sidebar-buttons">
+            <div id="newsletter-builder-sidebar-buttons-abutton">Download Template</div>
+            <div id="newsletter-builder-sidebar-buttons-bbutton">Export</div>
+        </div>
     </div>
-  </div>
-  
-  
-  <div id="newsletter-builder-area" class="resize-height resize-width">
-    <div id="newsletter-builder-area-center">
-      <div id="newsletter-builder-area-center-frame">
-      
-      <div id="newsletter-builder-area-center-frame-buttons">
-      <div id="newsletter-builder-area-center-frame-buttons-add">Add&nbsp;&nbsp;<i class="fa fa-caret-down"></i>
-      <div id="newsletter-builder-area-center-frame-buttons-dropdown">
-      <div class="newsletter-builder-area-center-frame-buttons-dropdown-tab" id="add-header"><p>Header</p><i class="fa fa-caret-right"></i></div>
-      <div class="newsletter-builder-area-center-frame-buttons-dropdown-tab" id="add-content"><p>Content</p><i class="fa fa-caret-right"></i></div>
-      <div class="newsletter-builder-area-center-frame-buttons-content">
-      <div class="newsletter-builder-area-center-frame-buttons-content-tab" data-type="header" data-id="1"><img src="{{ asset('bundles/framework/_row_thumbs/sim-row-thumb_1.png') }}" /></div>
-      <div class="newsletter-builder-area-center-frame-buttons-content-tab" data-type="header" data-id="2"><img src="{{ asset('bundles/framework/_row_thumbs/sim-row-thumb_2.png') }}" /></div>
-      <div class="newsletter-builder-area-center-frame-buttons-content-tab" data-type="content" data-id="5"><img src="{{ asset('bundles/framework/_row_thumbs/sim-row-thumb_5.png') }}" /></div>
-      <div class="newsletter-builder-area-center-frame-buttons-content-tab" data-type="content" data-id="6"><img src="{{ asset('bundles/framework/_row_thumbs/sim-row-thumb_6.png') }}" /></div>
-      <div class="newsletter-builder-area-center-frame-buttons-content-tab" data-type="content" data-id="7"><img src="{{ asset('bundles/framework/_row_thumbs/sim-row-thumb_7.png') }}" /></div>
-      <div class="newsletter-builder-area-center-frame-buttons-content-tab" data-type="content" data-id="8"><img src="{{ asset('bundles/framework/_row_thumbs/sim-row-thumb_8.png') }}" /></div>
-      <div class="newsletter-builder-area-center-frame-buttons-content-tab" data-type="content" data-id="9"><img src="{{ asset('bundles/framework/_row_thumbs/sim-row-thumb_9.png') }}" /></div>
-      <div class="newsletter-builder-area-center-frame-buttons-content-tab" data-type="content" data-id="10"><img src="{{ asset('bundles/framework/_row_thumbs/sim-row-thumb_10.png') }}" /></div>
+    <div id="newsletter-builder-area" class="resize-height resize-width">
+        <div id="newsletter-builder-area-center">
+            <div id="newsletter-builder-area-center-frame">
 
-      </div>
-      </div>
-      
-      </div>
-      <div id="newsletter-builder-area-center-frame-buttons-reset"><a href="index.html"><i class="icon-reload-CCW"></i>&nbsp;&nbsp;Reset</a></div>
-      </div>
-      <div id="newsletter-builder-area-center-frame-content"> 
+                <div id="newsletter-builder-area-center-frame-buttons">
+                    <div id="newsletter-builder-area-center-frame-buttons-add">Add&nbsp;&nbsp;<i class="fa fa-caret-down"></i>
+                        <div id="newsletter-builder-area-center-frame-buttons-dropdown">
+                            <div class="newsletter-builder-area-center-frame-buttons-dropdown-tab" id="add-header">
+                                <p>Header</p>
+                                <i class="fa fa-caret-right"></i>
+                            </div>
+                            <div class="newsletter-builder-area-center-frame-buttons-dropdown-tab" id="add-content">
+                                <p>Content</p>
+                                <i class="fa fa-caret-right"></i>
+                            </div>
+                            <div class="newsletter-builder-area-center-frame-buttons-content">
+                                <div class="newsletter-builder-area-center-frame-buttons-content-tab" data-type="header" data-id="1">
+                                    <img src="{{ asset('bundles/framework/_row_thumbs/sim-row-thumb_1.png') }}" />
+                                </div>
+                                <div class="newsletter-builder-area-center-frame-buttons-content-tab" data-type="header" data-id="2">
+                                    <img src="{{ asset('bundles/framework/_row_thumbs/sim-row-thumb_2.png') }}" />
+                                </div>
+                                <div class="newsletter-builder-area-center-frame-buttons-content-tab" data-type="content" data-id="5">
+                                    <img src="{{ asset('bundles/framework/_row_thumbs/sim-row-thumb_5.png') }}" />
+                                </div>
+                                <div class="newsletter-builder-area-center-frame-buttons-content-tab" data-type="content" data-id="6">
+                                    <img src="{{ asset('bundles/framework/_row_thumbs/sim-row-thumb_6.png') }}" />
+                                </div>
+                                <div class="newsletter-builder-area-center-frame-buttons-content-tab" data-type="content" data-id="7">
+                                    <img src="{{ asset('bundles/framework/_row_thumbs/sim-row-thumb_7.png') }}" />
+                                </div>
+                                <div class="newsletter-builder-area-center-frame-buttons-content-tab" data-type="content" data-id="8">
+                                    <img src="{{ asset('bundles/framework/_row_thumbs/sim-row-thumb_8.png') }}" />
+                                </div>
+                                <div class="newsletter-builder-area-center-frame-buttons-content-tab" data-type="content" data-id="9">
+                                    <img src="{{ asset('bundles/framework/_row_thumbs/sim-row-thumb_9.png') }}" />
+                                </div>
+                                <div class="newsletter-builder-area-center-frame-buttons-content-tab" data-type="content" data-id="10">
+                                    <img src="{{ asset('bundles/framework/_row_thumbs/sim-row-thumb_10.png') }}" />
+                                </div>
 
-
-      </div>
-      </div>
-      
+                            </div>
+                        </div>
+                    </div>
+                    <div id="newsletter-builder-area-center-frame-buttons-reset">
+                        <a href="/newsletter-drag-symfony/web/app_dev.php/">
+                            <i class="icon-reload-CCW"></i>&nbsp;&nbsp;Reset
+                        </a>
+                    </div>
+                </div>
+                <div id="newsletter-builder-area-center-frame-content"> </div>
+            </div>
+        </div>
     </div>
-   
-  </div>
 </div>
 </body>
 </html>
